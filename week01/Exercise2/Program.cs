@@ -10,29 +10,29 @@ class Program
         int userGrade = int.Parse(Console.ReadLine());
         if (userGrade >= 90)
         {
-            Console.Write($"Your grade {userGrade}, is A");
+            Console.WriteLine($"Your grade {userGrade}, is A");
         }
         else if (userGrade >= 80 && userGrade < 90)
         {
-            Console.Write($"Your grade {userGrade}, is B");
+            Console.WriteLine($"Your grade {userGrade}, is B");
         }
         else if (userGrade >= 70 && userGrade < 80)
         {
-            Console.Write($"Your grade {userGrade}, is C");
+            Console.WriteLine($"Your grade {userGrade}, is C");
         }
         else if (userGrade >= 60 && userGrade < 70)
         {
-            Console.Write($"Your grade {userGrade}, is D");
+            Console.WriteLine($"Your grade {userGrade}, is D");
         }
         else
         {
-            Console.Write($"Your grade {userGrade}, is F");
+            Console.WriteLine($"Your grade {userGrade}, is F");
             Console.WriteLine("Try harder next semester! I know you can do it.");
         }
         if (userGrade >= 70)
         {
             Console.WriteLine("Congratulations! You passed the test/exam");
-            Console.WriteLine("Keep Up The Work!");
+            Console.WriteLine("Keep Up The Good Work!");
         }
         else
         {
