@@ -8,26 +8,31 @@ class Program
 
         Console.Write("What is your grade?(type only the grade number i.e 65) ");
         int userGrade = int.Parse(Console.ReadLine());
+        string letterGrade = ("");
         if (userGrade >= 90)
         {
-            Console.WriteLine($"Your grade {userGrade}, is A");
+            letterGrade = ("A");
+            Console.WriteLine($"Your grade {userGrade}, is {letterGrade}");
         }
         else if (userGrade >= 80 && userGrade < 90)
         {
-            Console.WriteLine($"Your grade {userGrade}, is B");
+            letterGrade = ("B");
+            Console.WriteLine($"Your grade {userGrade}, is {letterGrade}");
         }
         else if (userGrade >= 70 && userGrade < 80)
         {
-            Console.WriteLine($"Your grade {userGrade}, is C");
+            letterGrade = ("C");
+            Console.WriteLine($"Your grade {userGrade}, is {letterGrade}");
         }
         else if (userGrade >= 60 && userGrade < 70)
         {
-            Console.WriteLine($"Your grade {userGrade}, is D");
+            letterGrade = ("D");
+            Console.WriteLine($"Your grade {userGrade}, is {letterGrade}");
         }
         else
         {
-            Console.WriteLine($"Your grade {userGrade}, is F");
-            Console.WriteLine("Try harder next semester! I know you can do it.");
+            letterGrade = ("F");
+            Console.WriteLine($"Your grade {userGrade}, is {letterGrade}");
         }
         if (userGrade >= 70)
         {
@@ -37,7 +42,7 @@ class Program
         else
         {
             Console.WriteLine("Unfortunately you failed the test/exam.");
-            Console.WriteLine("Try harder next time!");            
+            Console.WriteLine("Try harder next time! You can do it.");            
         }
     }
 }
