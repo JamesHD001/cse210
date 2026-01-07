@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise2 Project.");
 
-        Console.Write("What is your is your grade?(type only the grade number i.e 65) ");
+        Console.Write("What is your grade?(type only the grade number i.e 65) ");
         int userGrade = int.Parse(Console.ReadLine());
         if (userGrade >= 90)
         {
