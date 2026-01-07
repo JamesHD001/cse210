@@ -31,13 +31,13 @@ class Program
         }
         if (userGrade >= 70)
         {
-            Console.Write("Congratulations! You passed the test/exam");
-            Console.Write("Keep Up The Work!");
+            Console.WriteLine("Congratulations! You passed the test/exam");
+            Console.WriteLine("Keep Up The Work!");
         }
         else
         {
-            Console.Write("Unfortunately your grade is too low.");
-            Console.Write("Try harder next time, you can do it!");            
+            Console.WriteLine("Unfortunately your grade is too low.");
+            Console.WriteLine("Try harder next time, you can do it!");            
         }
     }
 }
