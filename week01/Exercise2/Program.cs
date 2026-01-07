@@ -36,8 +36,8 @@ class Program
         }
         else
         {
-            Console.WriteLine("Unfortunately your grade is too low.");
-            Console.WriteLine("Try harder next time, you can do it!");            
+            Console.WriteLine("Unfortunately you failed the test/exam.");
+            Console.WriteLine("Try harder next time!");            
         }
     }
 }
