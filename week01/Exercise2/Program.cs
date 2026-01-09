@@ -51,7 +51,6 @@ class Program
         }
         Console.WriteLine($"Your grade {userGrade}, is {letterGrade}{modifier}");
 
-
         if (userGrade >= 70)
         {
             Console.WriteLine("Congratulations! You passed the test/exam");
