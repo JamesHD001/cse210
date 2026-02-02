@@ -52,7 +52,7 @@ public class Order
     public string GetShippingLabel()
     {
         string shipping = "";
-        shipping += _customer.Info() + "\n" + _customer.Location();
+        shipping += _customer.Info() + _customer.Location();
 
         return shipping;
     }
