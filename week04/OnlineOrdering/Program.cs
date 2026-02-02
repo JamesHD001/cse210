@@ -47,12 +47,13 @@ class Program
         {
             Console.WriteLine("=================================");
             Console.WriteLine("PACKING LABEL:");
+            Console.WriteLine("=================================");
             Console.WriteLine(order.GetPackingLabel());
 
             Console.WriteLine("\nSHIPPING LABEL:");
             Console.WriteLine(order.GetShippingLabel());
-
-            Console.WriteLine($"\nTOTAL COST: ${order.GetTotalCost():F2}");
+            Console.WriteLine("=================================");
+            Console.WriteLine($"\nTOTAL COST: ${order.CalculateTotal():F2}");
             Console.WriteLine("=================================\n");
         }
     }

@@ -6,21 +6,26 @@ public class Product
     private float _price;
     private int _quantity;
 
+    public Product(string name, string productId, float price, int quantity)
+{
+    _name = name;
+    _productId = productId;
+    _price = price;
+    _quantity = quantity;
+}
+
     public string ProductInfo()
     {
         string name = _name;
         string productId = _productId;
-        float price = _price;
-        int quantity = _quantity;
-        string productInfo = $"{name}{productId}";
+        string productInfo = $"{name} ({productId})";
         return productInfo;
     }
 
+
         public float CalculateTotalCost()
     {
-        float price = _price;
-        int quantity = _quantity;
-        float totalCost= price * quantity;
+        float totalCost = _price * _quantity;
         return totalCost;
     }
 
