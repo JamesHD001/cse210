@@ -54,7 +54,7 @@ class Program
             Console.WriteLine(order.GetShippingLabel());
             Console.WriteLine("=================================");
             Console.WriteLine($"\nTOTAL COST: ${order.CalculateTotal():F2}");
-            Console.WriteLine("=================================\n");
+            Console.WriteLine("=================================");
         }
     }
 }
